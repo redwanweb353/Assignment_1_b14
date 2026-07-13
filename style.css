@@ -55,3 +55,48 @@
     color: white;
     font-size: 22px;
 }
+/* meet speakers section */
+.speakers-section{
+    max-width: 1320px;
+    margin:80px auto ;
+
+}
+
+.speakers-section-heading{
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    color: #000102;
+    padding-bottom: 50px;
+}
+.speakers-card-section{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.speakers-card{
+    border:1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.card-description{
+    margin: 20px ;
+}
+.speaker-category{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight:600;
+}
+.speakers-image img{
+    border-radius: 12px 12px 0 0;
+    
+}
+.speaker-name{
+    font-size: 20px;
+    color: #0D1B2A;
+    margin: 8px 0;
+}
+.speaker-identity{
+    color: #575757;
+    font-size: 14px;
+}
